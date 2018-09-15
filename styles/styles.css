@@ -1,0 +1,135 @@
+body{
+    background-color: #62ABEA;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    color: white;
+    text-shadow: 5px 5px black;
+    margin-top: 10px;
+    font-size: 70px;
+    font-family: 'Sigmar One', cursive;
+}
+img{
+    position: absolute;
+    
+}
+input{
+    margin-top: 20px;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    border: 1px white solid;
+}
+button{
+    margin-top: 20px;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    border: 1px white solid;
+    
+}
+#hello{
+    margin-top: 20px;
+}
+.welcome{
+    margin: 0 auto;
+    height: 430px;
+    width: 550px;
+    border: solid white 2px;
+    clear: both;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.welcomeLeft{
+    float: left;
+    margin-left: 140px;
+    height: 370px;
+    width: 550px;
+    border: solid white 2px;
+    clear: both;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.central{
+    height: 200px;
+    width: 550px;
+}
+.centralLeft{
+    height: 100px;
+    width: 550px;
+}
+.question{
+    margin-top: 60px;
+    font-size: 20px;
+}
+.hidden{
+    display: none;
+}
+.show{
+    display: inline-block;
+}
+#panel{
+    margin: 0 auto;
+    width: 600px;
+    height: 100px;
+}
+#letters{
+    margin-bottom: 20px;
+}
+#init{
+    float: right;
+    margin-right: 100px;
+}
+#counter{
+    float: right;
+    border: 1px  dotted;
+    margin-top: 100px;
+    padding: 5px;
+    background-color: #EEB050;
+}
+.circles{
+    margin: 5px;
+    height: 35px;
+    width: 35px;
+    background-color: #315A99;
+    border-radius: 50%;
+    color: white;
+    float: left;
+    text-align: center;
+    animation-name: circle; 
+    animation-duration: 2s;
+}
+@keyframes circle {
+    0%   {background-color:#3540d4;color: #ff0000}
+    60% {background-color:#EEB050;}
+}
+#ranking{
+    margin-top: 10px;
+    border: solid 2px white;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: black;
+}
+#time{
+    float: left;
+    border: 1px  dotted;
+    margin-top: 100px;
+    padding: 5px;
+    background-color: #EEB050;
+}
+#retry{
+    clear: both;
+    width: 100%;
+}
+#ready{
+    margin-top: 50px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tema 8: Pasapalabra </title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto+Mono|Sigmar+One" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+    <body>
+        <header>
+            <h1 >PASAPALABRA <img src="images/homer-simpsons-155238_640.png" width= "70" height="110"alt=""></h1>
+        </header>
+        <div id="panel">
+            <div id="letters"></div>
+        </div>
+        <div id="welcome" class="welcome">
+            <div id="hello">
+                <h3>¡Bienvenido al juego de Pasapalabra!</h3>
+                <h3>Acierta todas la preguntas posibles. En el caso de no saberla, haz click en "pasapalabra" para dejarla para las siguientes rondas (escribe sin acentos)</h3>
+                <h3>Escribe tu nombre y ¡¡dale a "Empezar" para comenzar el juego!! </h3>
+                <h3>Puedes hacer click en "Finalizar" para acabar el juego en cualquier momento y date prisa ya que el tiempo corre</h3>
+            <button id="init">Empezar</button>
+            </div> 
+            <div id="central" class="central">
+                <input type="text" name="" id="name" placeholder="Escribe aquí">
+                <button class="hidden" id="accept">Aceptar</button>
+                <button class="hidden" id="pasapalabraBtn">Pasapalabra</button>
+                <button class="hidden" id="final">Finalizar</button>
+                <p id="counter" class="hidden"></p>
+                <p id="time" class="hidden"></p>
+            </div>
+            <div id="question" class="question"></div>
+            <button class="hidden" id="ready">Volver a jugar</button>
+        </div>
+        <audio id="incorrect" src="audio/perder-incorrecto-no-valido.mp3" preload="auto"></audio>
+        <audio id="correct" src="audio/correct-ding.mp3" preload="auto"></audio>
+        <div id="information" >
+            <h3 id="ranking" class="hidden">RANKING</h3>
+        </div>
+        <script src="app/app.js"></script>
+    </body>
+</html>
